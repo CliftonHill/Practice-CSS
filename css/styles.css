@@ -1,0 +1,123 @@
+/* other accent color: #f88020
+embedded fonts:
+font-family: 'Kaushan Script', cursive;
+font-family: 'Alegreya', serif;
+*/
+
+* {
+  margin: 0;
+  color: #3d0e1e;
+
+}
+
+body {
+  background-color: #fff4e4;
+  font-size: 1.4rem;
+  text-align: center;
+  font-family: 'Alegreya', sans-serif;
+  line-height: 2;
+}
+
+h1 {
+  color: #d1274b;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 5rem;
+}
+
+a, h3 {
+  color: #f88020;
+}
+
+.top h2 {
+  font-weight: normal;
+}
+
+img {
+  margin-top: 3rem;
+}
+
+div {
+
+  margin: 0 auto 0 auto;
+  width: 70%;
+}
+
+hr {
+  border: 8px dotted #d1274b;
+  border-bottom: none;
+  width: 30%;
+  margin: 1rem auto;
+
+}
+
+.top {
+
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+  background-color: #d1274b;
+  position: absolute;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.bottom-container a {
+  padding: 3rem 1rem;
+  text-decoration: none;
+}
+
+.bottom-container a:hover {
+  color: white;
+}
+
+.bottom-container p {
+  color: white;
+  font-size: 1.1rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.first-cloud {
+  position: relative;
+  left: 30%;
+}
+
+.second-cloud {
+  position: absolute;
+  right: 70%;
+
+}
+
+.castle {
+  position: relative;
+  top: 50px;
+}
+
+.btn {
+	box-shadow: 0px 0px 0px 2px #e65776;
+	background:linear-gradient(to bottom, #d18c9b 5%, #d1274c 100%);
+	background-color:#d18c9b;
+	border-radius:10px;
+	border:1px solid #ba1f41;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:0.5rem 1rem;
+  margin: 2rem 2rem;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #75172c;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #d1274c 5%, #d18c9b 100%);
+	background-color:#d1274c;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
